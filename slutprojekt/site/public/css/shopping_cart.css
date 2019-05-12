@@ -1,0 +1,12 @@
+.menu {
+  background-color: grey;
+  transition: 0.33s;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: -100%;
+  z-index: 3; }
+
+.menu.clicked {
+  left: 0;
+  top: 0; }

@@ -1,0 +1,83 @@
+body {
+  margin: 0; }
+
+.home {
+  background-color: #FDB813;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 2s; }
+
+#first {
+  background-color: #E4F6F8;
+  padding: 25px;
+  transition-delay: 0s; }
+
+#second {
+  background-color: #62C2CC;
+  padding: 25px;
+  transition-delay: 1s; }
+
+#third {
+  background-color: #F17022;
+  padding: 25px;
+  transition-delay: 2s; }
+
+#fourth {
+  background-color: #F68B1F;
+  padding: 25px;
+  transition-delay: 3s; }
+
+#fifth {
+  padding: 25px;
+  background-color: #FDB813;
+  transition-delay: 4s; }
+
+@keyframes change {
+  0% {
+    color: #E4F6F8;
+    left: 0px;
+    top: 1px; }
+  25% {
+    color: #62C2CC;
+    left: 1px;
+    top: 0px; }
+  50% {
+    color: #F17022;
+    left: 0px;
+    top: 1px; }
+  75% {
+    color: #F68B1F;
+    left: 1px;
+    top: 0px; }
+  100% {
+    color: #EEBC82;
+    left: 0px;
+    top: 1px; }
+  100% {
+    color: #ECC595;
+    left: 1px;
+    top: 0px; }
+  100% {
+    color: #E9D9BD;
+    left: 0px;
+    top: 1px; } }
+.material-icons, #home {
+  font-size: 3rem;
+  color: #E4F6F8;
+  position: relative;
+  animation-name: change;
+  animation-duration: 4s;
+  animation-iteration-count: infinite; }
+
+.clicked {
+  padding: 0 !important;
+  transition-delay: 3.8s;
+  visibility: hidden; }
