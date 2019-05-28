@@ -1,0 +1,53 @@
+section{
+    margin: 40px;
+    grid-column: span 4;
+    background-color: #FDB813;
+    box-shadow: 0px 0px 7px -1px rgba(0,0,0,1);
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    padding: 25px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+article{
+    height: 100%;
+    width: 100%;
+    background-color: #E4F6F8;
+}
+
+h1{
+    padding: 10px;
+    border-bottom: 5px dotted #FDB813;
+}
+
+h4{
+    padding: 10px;
+}
+
+footer{
+    grid-column: span 4;
+    background-color: #62C2CC;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+summary{
+    color: white;
+    margin: 10px;
+}
+
+@media only screen  and (min-width : 1224px) {
+
+    article{
+        font-size: 2rem;
+    }
+
+}
+

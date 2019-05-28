@@ -1,0 +1,58 @@
+.shopping_list{
+    grid-column: span 4;
+    background-color: #FDB813;
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+main{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+
+    // background-color: #FDB813;
+    box-shadow: 0px 0px 7px -1px rgba(0,0,0,1);
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    // Anledningen till att denna bild upprepas är för att det var den enda bilden jag hade i OK storlek, innan ps slutade fungera igen...
+    background-image: url(../img/cherry_2.jpg);
+}
+
+
+// Då ps slutade fungera igen. Kunde jag inte ge varje box en unik bild, därav koden nedan. Men har kvar den för att jag vill visa vad jag tänkte.
+// main:nth-child(1){
+// }
+
+// main:nth-child(2){
+//     background-image: url();
+// }
+
+// main:nth-child(3){
+//     background-image: url();
+// }
+
+.box{
+    height: 80%;
+    width: 80%;
+    background-color: #FDB813;
+}
+
+@media only screen  and (min-width : 1224px) {
+
+    .shopping_list{
+        // flex-direction: none;
+       flex-direction: row;
+    }
+
+
+}

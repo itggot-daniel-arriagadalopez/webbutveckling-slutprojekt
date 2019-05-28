@@ -1,0 +1,114 @@
+body {
+  margin: 0; }
+
+.wrapper {
+  display: grid;
+  background-color: #FDB813;
+  grid-template-rows: 15vh auto 15vh;
+  grid-template-columns: 25vw 25vw 25vw 25vw; }
+
+nav {
+  box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.48); }
+
+nav:nth-child(1) {
+  background-color: #F17022;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ramabhadra', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #E4F6F8; }
+
+nav:nth-child(2) {
+  background-image: url(../img/cherry_header@101x99.png); }
+
+nav:nth-child(3) {
+  background-image: url(../img/orange_header@101x99.png); }
+
+nav:nth-child(4) {
+  background-image: url(../img/blueberry_header@101x99.png); }
+
+menu {
+  display: none; }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  .wrapper {
+    grid-template-rows: 15vh 70vh 15vh; }
+
+  nav {
+    font-size: 2rem; } }
+.colors_test {
+  background-color: #FDB813;
+  background-color: #F68B1F;
+  background-color: #F68B1F;
+  background-color: #F17022;
+  background-color: #62C2CC;
+  background-color: #E4F6F8;
+  background-color: #EEF66C; }
+
+section {
+  margin: 40px;
+  grid-column: span 4;
+  background-color: #FDB813;
+  box-shadow: 0px 0px 7px -1px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  font-family: 'Montserrat', sans-serif; }
+
+article {
+  height: 100%;
+  width: 100%;
+  background-color: #E4F6F8; }
+
+h1 {
+  padding: 10px;
+  border-bottom: 5px dotted #FDB813; }
+
+h4 {
+  padding: 10px; }
+
+footer {
+  grid-column: span 4;
+  background-color: #62C2CC;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+summary {
+  color: white;
+  margin: 10px; }
+
+@media only screen and (min-width: 1224px) {
+  article {
+    font-size: 2rem; } }
+.shopping_list {
+  grid-column: span 4;
+  background-color: #FDB813;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+main {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0px 0px 7px -1px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/cherry_2.jpg); }
+
+.box {
+  height: 80%;
+  width: 80%;
+  background-color: #FDB813; }
+
+@media only screen and (min-width: 1224px) {
+  .shopping_list {
+    flex-direction: row; } }
